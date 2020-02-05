@@ -26,7 +26,7 @@ running = True
 # file = '/storage/emulated/0/Download/CSE2016_6th_sem_result.pdf'
 
 # Path (Change this path accordingly)
-file = '/home/adonnis/Downloads/CSE2016_6th_sem_result.pdf'
+file = '/home/Puneet/Downloads/CSE2016_6th_sem_result.pdf'
 
 
 def get_result():
@@ -69,7 +69,7 @@ def get_result():
                             f.write(r.content)
                             # Uncomment the following two lines for android text to speech
                             # droid = androidhelper.Android()
-                            # droid.ttsSpeak("Hey Adonnis, your result is declared. Hurry go to Download folder")
+                            # droid.ttsSpeak("Hey Puneet, your result is declared. Hurry go to Download folder")
                             print("Hey your result is out and is stored in the Download directory")
                             print("Result uploaded on: ", dt_string)
                             running = False
